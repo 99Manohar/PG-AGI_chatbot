@@ -6,6 +6,7 @@ from datetime import datetime
 from textblob import TextBlob
 from deep_translator import GoogleTranslator
 
+
 # Load the API key from a text file
 with open("google_api_key.txt", "r") as f:
     api_key = f.read().strip()
@@ -13,7 +14,8 @@ with open("google_api_key.txt", "r") as f:
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash-latest",
     google_api_key=api_key,
-    temperature=0.7
+    temperature=0.7,
+    convert_system_message_to_human=True
 )
 
 # --- Streamlit Setup ---
