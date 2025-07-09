@@ -62,8 +62,9 @@ This tool demonstrates effective **prompt engineering**, **LLM integration**, an
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pg-agi-hiring-assistant.git
-cd pg-agi-hiring-assistant
+git clone https://github.com/99Manohar/pg-agi_chatbot.git
+cd pg-agi_chatbot
+
 ```
 
 ### 2. Create Virtual Environment
@@ -173,8 +174,8 @@ langchain-google-genai==0.0.8
 ## 🌐 Deployment Notes
 
 * Deployed locally and tested.
-* Bonus: Hosted on [Render](https://pg-agi-chatbot.onrender.com) .
-* Compatible with Streamlit Cloud.
+* Hosted on [Render](https://pg-agi-chatbot.onrender.com) .
+  
 
 ---
 
@@ -186,7 +187,7 @@ langchain-google-genai==0.0.8
 ---
 
 
-**M A**
+**Manohar**
 
 ---
 
