@@ -6,7 +6,7 @@ Welcome to **PG-AGI**, a Streamlit-based AI chatbot built for "TalentScout," a f
 
 ## 📘 Project Overview
 
-PG-AGI uses **Google's Gemini 1.5 model** with Langchain, offering:
+PG-AGI uses **Google's gemini-1.5-flash-latest model** with Langchain, offering:
 
 * Smart candidate interaction
 * Sentiment analysis
@@ -47,13 +47,13 @@ This tool demonstrates effective **prompt engineering**, **LLM integration**, an
 
 ## 🧱 Architecture & Stack
 
-| Layer       | Technology                              |
-| ----------- | --------------------------------------- |
-| UI          | Streamlit                               |
-| LLM Backend | Gemini 1.5 via Langchain & Google GenAI |
-| Translation | deep-translator                         |
-| Sentiment   | TextBlob                                |
-| Deployment  | Localhost / Render Cloud                |
+| Layer       | Technology                                      |
+| ----------- | ------------------------------------------------|
+| UI          | Streamlit                                       |
+| LLM Backend |gemini-1.5-flash-latest,Langchain & Google GenAI |
+| Translation | deep-translator                                 |
+| Sentiment   | TextBlob                                        |
+| Deployment  | Localhost / Render Cloud                        |
 
 ---
 
@@ -147,7 +147,7 @@ deep-translator==1.11.4
 
 ## ⚠️ Known Limitations
 
-* **API Quota**: Free-tier limits from Gemini API (\~50 requests/day). Adjust plan if needed.
+* **API Quota**: Free-tier limits from Gemini API (\~50 requests/day). 
 * **SystemMessage Error**: Handled using `convert_system_message_to_human=True` in production deployments.
 
 ---
@@ -159,14 +159,14 @@ deep-translator==1.11.4
 | Gemini system messages not supported | Used `convert_system_message_to_human=True` |
 | Free tier quota exceeded             | Shown 429 error with link to quota info     |
 | Unexpected input or language         | Translated using `deep-translator`          |
-| State management                     | Tracked with `st.session_state`             |
+
 
 ---
 
 ## 🌐 Deployment Notes
 
 * Deployed locally and tested.
-* Bonus: Hosted on [Render](https://render.com) (or replace with your URL).
+* Bonus: Hosted on [Render](https://pg-agi-chatbot.onrender.com) .
 * Compatible with Streamlit Cloud.
 
 ---
@@ -178,13 +178,6 @@ deep-translator==1.11.4
 
 ---
 
-## 📜 License & Contribution
-
-Feel free to fork and improve. For major changes, please open an issue to discuss.
-
----
-
-## 👨‍💻 Author
 
 **M A**
 
