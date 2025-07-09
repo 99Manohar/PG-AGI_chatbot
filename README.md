@@ -136,11 +136,18 @@ Prompts are dynamically generated based on user input and appended to a `ChatPro
 ## 📚 Requirements File
 
 ```txt
-streamlit==1.35.0
+
+streamlit>=1.30
+langchain==0.1.16
+langchain-community==0.0.32
+langchain-google-genai==0.0.8
+google-generativeai==0.3.2
+
+deep-translator==1.11.4
+textblob==0.18.0
+
 langchain-core==0.1.44
 langchain-google-genai==0.0.8
-textblob==0.18.0
-deep-translator==1.11.4
 ```
 
 ---
