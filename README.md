@@ -174,7 +174,7 @@ langchain-google-genai==0.0.8
 ## 🌐 Deployment Notes
 
 * Deployed locally and tested.
-* Hosted on [Render](https://pg-agi-chatbot.onrender.com), may work although working on local host👍 .
+* Hosted on [https://pg-agi-chatbot.onrender.com] render hosting url , may work although working perfectly  on local host👍 .
   
 
 ---
