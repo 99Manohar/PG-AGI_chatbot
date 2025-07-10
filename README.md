@@ -181,7 +181,7 @@ langchain-google-genai==0.0.8
 
 ## 🎥 Demo / Presentation
 
-* [https://www.loom.com/share/a2ac5aabced340f7b97ff5cc7e2ee280](#) *(Optional link)*
+* [https://www.loom.com/share/a2ac5aabced340f7b97ff5cc7e2ee280] *(LOOM url link)*
 
 
 ---
